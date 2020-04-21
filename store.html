@@ -9,9 +9,19 @@
 
 <body>
     <h1>Comprar equipamento</h1>
-    <form>
-      <label for="name">nome</label>
-      <input type="text" id="name" >
+    <form action="store_success.html">
+      <label for="name">Nome</label>
+      <input maxlength="30" type="text" id="name" name="nome"
+      <label>Email</label>
+      <input type="email" id="email" name="email">
+
+      <select name="products" id="product">
+        <option value="mascara_lv1">Máscara Cirurgica</option>
+        <option value="mascara_lv2">Máscara F1</option>
+        <option value="mascara_lv3">Máscara F2</option>
+      </select>
+
+      <button type="submit" name="submit_button">Finalizar Compra</button>
     </form>
 
 </body>
