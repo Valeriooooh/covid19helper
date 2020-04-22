@@ -1,13 +1,25 @@
-.Menu{
-    font-family: 'Anton', sans-serif;
-    color:red;
-    
+body{
+background-color:#577a8a;
+
+}
+._menu_box{
+  background-color: ;
+  background-size: 30;
+
+
 }
 
 
+.Menu{
+    background-color:#6ba5bf;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
-a{
-
-  color:Green;
-
+}
+._menu{
+  color: inherit;
+  font-family: 'Anton', sans-serif;
+  font-size:10;
+  font-weight: 600;
 }
