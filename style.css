@@ -1,9 +1,42 @@
 body{
-background-color:#577a8a;
+background-image: url("Images/download.jpeg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+ul{
+  margin:"0";
+  list-style: none;
+  float: none;
 
 }
+
+li{
+  float: left;
+  padding:
+
+}
+
+h1{
+  font-size: 40px;
+  color: white;
+
+}
+
+p{
+  font-size: 30px;
+  font-weight: 300;
+  color: white;
+
+}
+
+.body_text{
+  background-color:#5390ab;
+  text-align: center;
+}
+
 ._menu_box{
-  background-color: ;
+  background-color: grey;
   background-size: 30;
 
 
@@ -11,15 +44,17 @@ background-color:#577a8a;
 
 
 .Menu{
-    background-color:#6ba5bf;
+    background-color:#5390ab;
     display: flex;
     align-items: center;
+    position: sticky;
     justify-content: space-between;
 
 }
 ._menu{
-  color: inherit;
   font-family: 'Anton', sans-serif;
-  font-size:10;
+  font-size:28px;
   font-weight: 600;
+  text-decoration:none;
+  padding-left:300px;
 }
