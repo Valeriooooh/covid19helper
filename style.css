@@ -74,7 +74,7 @@ input[type=text], select {
   box-sizing: border-box;
 }
 
-input[type=email], select {
+input[type=email]{
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -84,7 +84,7 @@ input[type=email], select {
   box-sizing: border-box;
 }
 
-input[type=name], select {
+input[type=name]{
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
